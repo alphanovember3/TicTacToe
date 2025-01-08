@@ -1,0 +1,117 @@
+*{
+    margin:0
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    display: inline;
+    background-color:#0e100e;   
+    color:#7ad9f6 ;
+    
+    
+}
+.info{
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+body{
+    background-color: #94AE89;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+
+.container{
+    
+    height: 460px;
+    width:460px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+.box{
+
+    height: 150px;
+    width:150px;
+    background-color:#C0DA74;
+    border: 2px solid #94AE89;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color:#7f9f71;
+}
+
+
+.resetbtn{
+
+    height: 45px;
+    width:75px;
+    margin-left: 730px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.newbtn{
+    height: 45px;
+    width:75px;
+    margin-left: 730px;
+    font-size: 18px;
+    margin-top: 10px;
+   
+
+}
+.msg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.msg-p{
+    height: 45px;
+    color:#D5FFD9;
+    font-size: 40px;
+    margin-top: 30px;
+
+    animation-name: colorchange;
+    animation-duration: 0.40s;
+    animation-iteration-count: infinite;
+    
+   
+
+}
+
+.hide{
+    display: none;
+    
+}
+
+.Xcolor{
+    color: rgb(115, 105, 90);
+}
+
+/* animation */
+
+
+@keyframes colorchange{
+
+    from{color: #deb607;}
+    to{color: #D5FFD9;}
+
+}
